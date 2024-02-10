@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+#ecgChart {
+    height: 400px;
+    width: 600px;
+    margin: 20px auto;
+}
+
+#heartRateChart {
+    height: 400px;
+    width: 600px;
+    margin: 20px auto;
+}
+
+#temperatureChart {
+    height: 400px;
+    width: 600px;
+    margin: 20px auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Monitoring</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Sensor Monitoring</h1>
+
+    <div>
+        <h2>Heart Rate Sensor</h2>
+        <canvas id="heartRateChart" width="400" height="200"></canvas>
+        <p id="heartRateReading">Heart Rate: --</p> <!-- Textual reading for heart rate -->
+    </div>
+
+    <div>
+        <h2>ECG Monitoring</h2>
+        <div id="ecgChart"></div>
+    </div>
+
+    <div>
+        <h2>Temperature Sensor Graph</h2>
+        <canvas id="temperatureChart" width="400" height="200"></canvas>
+        <p id="temperatureReading">Temperature: -- °C</p> <!-- Textual reading for temperature -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/1.1.1/chartjs-plugin-zoom.min.js"></script>
+    <script src="static/charts.js"></script>
+</body>
+</html>
